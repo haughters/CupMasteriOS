@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CupMaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You should totally get a..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ubh-U4-Vyc">
+                                <rect key="frame" x="16" y="28" width="288" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="0Rk-hd-Co0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BLACK_COFFEE" translatesAutoresizingMaskIntoConstraints="NO" id="4dY-Hh-hae">
+                                <rect key="frame" x="16" y="107" width="288" height="308"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gG4-gj-70I">
+                                <rect key="frame" x="16" y="423" width="288" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="BTW-Kj-C6j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEk-Rn-kuR">
+                                <rect key="frame" x="16" y="481" width="288" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="at0-UU-r7y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="36"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pick me a Coffee!">
+                                    <color key="titleColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="getCoffeeChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lag-F0-GgN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cZ-Bh-h1K">
+                                <rect key="frame" x="282" y="532" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="wfH-FT-X5G"/>
+                                </constraints>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="U74-ea-tUD" kind="presentation" modalTransitionStyle="flipHorizontal" id="x0G-7e-LxR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="4dY-Hh-hae" firstAttribute="leading" secondItem="gG4-gj-70I" secondAttribute="leading" id="25p-B8-bsP"/>
+                            <constraint firstItem="Ubh-U4-Vyc" firstAttribute="trailing" secondItem="4dY-Hh-hae" secondAttribute="trailing" id="AQI-ar-oeN"/>
+                            <constraint firstItem="Ubh-U4-Vyc" firstAttribute="leading" secondItem="4dY-Hh-hae" secondAttribute="leading" id="IIC-vP-2r3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2cZ-Bh-h1K" secondAttribute="bottom" constant="14" id="Idv-D0-fKz"/>
+                            <constraint firstItem="Ubh-U4-Vyc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="VPp-Gb-BYK"/>
+                            <constraint firstItem="4dY-Hh-hae" firstAttribute="trailing" secondItem="gG4-gj-70I" secondAttribute="trailing" id="bLX-nB-72b"/>
+                            <constraint firstItem="2cZ-Bh-h1K" firstAttribute="top" secondItem="tEk-Rn-kuR" secondAttribute="bottom" constant="8" symbolic="YES" id="cOZ-Ve-l8t"/>
+                            <constraint firstItem="tEk-Rn-kuR" firstAttribute="top" secondItem="gG4-gj-70I" secondAttribute="bottom" constant="25" id="dDJ-64-uGa"/>
+                            <constraint firstItem="gG4-gj-70I" firstAttribute="trailing" secondItem="tEk-Rn-kuR" secondAttribute="trailing" id="eLf-rt-vaw"/>
+                            <constraint firstItem="gG4-gj-70I" firstAttribute="leading" secondItem="tEk-Rn-kuR" secondAttribute="leading" id="idV-lz-l7G"/>
+                            <constraint firstItem="4dY-Hh-hae" firstAttribute="top" secondItem="Ubh-U4-Vyc" secondAttribute="bottom" constant="8" symbolic="YES" id="iyh-0H-vt5"/>
+                            <constraint firstItem="gG4-gj-70I" firstAttribute="top" secondItem="4dY-Hh-hae" secondAttribute="bottom" constant="8" symbolic="YES" id="j9u-YP-SIh"/>
+                            <constraint firstItem="tEk-Rn-kuR" firstAttribute="trailing" secondItem="2cZ-Bh-h1K" secondAttribute="trailing" id="mro-P4-iDX"/>
+                            <constraint firstItem="Ubh-U4-Vyc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rnE-du-495"/>
+                            <constraint firstItem="Ubh-U4-Vyc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="w8l-01-qJd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="coffeeImage" destination="4dY-Hh-hae" id="SKJ-y9-iIM"/>
+                        <outlet property="coffeeName" destination="gG4-gj-70I" id="eqe-pW-VZd"/>
+                        <outlet property="header" destination="Ubh-U4-Vyc" id="CzY-88-rYJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="113.79310344827587"/>
+        </scene>
+        <!--Preferences View Controller-->
+        <scene sceneID="IEy-Tb-Gzn">
+            <objects>
+                <viewController id="U74-ea-tUD" customClass="PreferencesViewController" customModule="CupMaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sc4-Wf-Nhj"/>
+                        <viewControllerLayoutGuide type="bottom" id="lF3-NM-pEY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Z2-qj-OQb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="74" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fTe-jO-9Em">
+                                <rect key="frame" x="16" y="85" width="288" height="412"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="coffeePreferenceCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="coffeePreferenceCell" rowHeight="74" id="ZFH-wR-Vxf" customClass="CoffeeTableViewCell" customModule="CupMaster" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="288" height="74"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZFH-wR-Vxf" id="oao-iF-qo5">
+                                            <rect key="frame" x="0.0" y="0.0" width="288" height="73.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BLACK_COFFEE" translatesAutoresizingMaskIntoConstraints="NO" id="rbl-vQ-sHT">
+                                                    <rect key="frame" x="0.0" y="0.0" width="66" height="74"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="coffeeImage"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="66" id="7uK-5V-tWs"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDM-PQ-1sw">
+                                                    <rect key="frame" x="74" y="8" width="154" height="28"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="coffeeLabel"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
+                                                    <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TwW-vm-bku">
+                                                    <rect key="frame" x="74" y="37" width="149" height="29"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="28" id="yHx-0K-nrV"/>
+                                                    </constraints>
+                                                    <segments>
+                                                        <segment title="1"/>
+                                                        <segment title="2"/>
+                                                        <segment title="3"/>
+                                                        <segment title="4"/>
+                                                        <segment title="5"/>
+                                                    </segments>
+                                                    <connections>
+                                                        <action selector="preferencesChanged:" destination="ZFH-wR-Vxf" eventType="valueChanged" id="0Wc-ZE-jr6"/>
+                                                    </connections>
+                                                </segmentedControl>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="10X-Xi-8iQ">
+                                                    <rect key="frame" x="231" y="21" width="51" height="31"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="coffeeSwitch"/>
+                                                    <connections>
+                                                        <action selector="toggleCoffee:" destination="ZFH-wR-Vxf" eventType="valueChanged" id="cVK-dY-kDZ"/>
+                                                    </connections>
+                                                </switch>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rbl-vQ-sHT" firstAttribute="centerY" secondItem="oao-iF-qo5" secondAttribute="centerY" id="4Vj-tA-RqG"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="TwW-vm-bku" secondAttribute="bottom" constant="0.5" id="6kY-5g-835"/>
+                                                <constraint firstItem="dDM-PQ-1sw" firstAttribute="top" secondItem="oao-iF-qo5" secondAttribute="topMargin" id="9lL-XE-7L9"/>
+                                                <constraint firstItem="dDM-PQ-1sw" firstAttribute="leading" secondItem="TwW-vm-bku" secondAttribute="leading" id="CLY-c2-2NQ"/>
+                                                <constraint firstItem="TwW-vm-bku" firstAttribute="top" secondItem="dDM-PQ-1sw" secondAttribute="bottom" constant="1" id="CmL-ux-pGj"/>
+                                                <constraint firstItem="rbl-vQ-sHT" firstAttribute="centerY" secondItem="10X-Xi-8iQ" secondAttribute="centerY" id="G5q-tF-25l"/>
+                                                <constraint firstItem="10X-Xi-8iQ" firstAttribute="trailing" secondItem="oao-iF-qo5" secondAttribute="trailingMargin" id="JV1-W1-rXp"/>
+                                                <constraint firstItem="10X-Xi-8iQ" firstAttribute="leading" secondItem="TwW-vm-bku" secondAttribute="trailing" constant="8" symbolic="YES" id="Uec-9X-7cO"/>
+                                                <constraint firstItem="rbl-vQ-sHT" firstAttribute="top" secondItem="oao-iF-qo5" secondAttribute="top" id="iIw-YZ-oYb"/>
+                                                <constraint firstItem="dDM-PQ-1sw" firstAttribute="leading" secondItem="rbl-vQ-sHT" secondAttribute="trailing" constant="8" symbolic="YES" id="mOf-Md-qVD"/>
+                                                <constraint firstItem="rbl-vQ-sHT" firstAttribute="leading" secondItem="oao-iF-qo5" secondAttribute="leading" id="qBk-tK-UFo"/>
+                                                <constraint firstItem="10X-Xi-8iQ" firstAttribute="leading" secondItem="dDM-PQ-1sw" secondAttribute="trailing" constant="3" id="uDS-Mp-B9x"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration" identifier="coffeePreferenceCell"/>
+                                        <connections>
+                                            <outlet property="coffeeImage" destination="rbl-vQ-sHT" id="B0P-7c-lgb"/>
+                                            <outlet property="coffeeLabel" destination="dDM-PQ-1sw" id="PPz-jd-0dK"/>
+                                            <outlet property="coffeePreference" destination="TwW-vm-bku" id="mzq-Lk-Ouk"/>
+                                            <outlet property="coffeeSwitch" destination="10X-Xi-8iQ" id="gYh-u8-QM2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="U74-ea-tUD" id="ReD-3x-5Zy"/>
+                                    <outlet property="delegate" destination="U74-ea-tUD" id="bPg-3l-J6r"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preferences" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lZ-jB-JV0">
+                                <rect key="frame" x="16" y="20" width="288" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="leM-wF-4L9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="36"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="plL-5M-EDN">
+                                <rect key="frame" x="16" y="505" width="288" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="VQi-OL-wsQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="27"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="getCoffeeChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n7o-bX-VBl"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="flipHorizontal" id="Puh-0H-aLf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="plL-5M-EDN" secondAttribute="bottom" constant="20" symbolic="YES" id="39t-Lc-IQP"/>
+                            <constraint firstItem="3lZ-jB-JV0" firstAttribute="leading" secondItem="fTe-jO-9Em" secondAttribute="leading" id="9Qg-2R-cSW"/>
+                            <constraint firstItem="3lZ-jB-JV0" firstAttribute="trailing" secondItem="fTe-jO-9Em" secondAttribute="trailing" id="AXr-Sd-eaB"/>
+                            <constraint firstItem="3lZ-jB-JV0" firstAttribute="top" secondItem="Sc4-Wf-Nhj" secondAttribute="bottom" id="Exx-I9-O1u"/>
+                            <constraint firstItem="fTe-jO-9Em" firstAttribute="trailing" secondItem="plL-5M-EDN" secondAttribute="trailing" id="FU9-WT-Iq4"/>
+                            <constraint firstItem="fTe-jO-9Em" firstAttribute="top" secondItem="3lZ-jB-JV0" secondAttribute="bottom" constant="8" symbolic="YES" id="Iwx-Oe-9u9"/>
+                            <constraint firstItem="3lZ-jB-JV0" firstAttribute="trailing" secondItem="8Z2-qj-OQb" secondAttribute="trailingMargin" id="Tgc-zj-ehX"/>
+                            <constraint firstItem="fTe-jO-9Em" firstAttribute="leading" secondItem="plL-5M-EDN" secondAttribute="leading" id="i8M-1z-TG6"/>
+                            <constraint firstItem="3lZ-jB-JV0" firstAttribute="leading" secondItem="8Z2-qj-OQb" secondAttribute="leadingMargin" id="lWF-8c-hWf"/>
+                            <constraint firstItem="plL-5M-EDN" firstAttribute="top" secondItem="fTe-jO-9Em" secondAttribute="bottom" constant="8" symbolic="YES" id="rBL-Oa-eVF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="coffeeTableView" destination="fTe-jO-9Em" id="QiF-UO-AKt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r9s-xd-fYB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1136.8" y="113.79310344827587"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BLACK_COFFEE" width="444" height="507"/>
+    </resources>
+</document>

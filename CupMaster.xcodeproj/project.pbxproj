@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276B7A2D6929D29314E7D9F1 /* Pods_CupMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C1E7A97AB8CD96DB08FB8F /* Pods_CupMaster.framework */; };
+		37349C3F1E9FCEF70056CF05 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37349C3E1E9FCEF70056CF05 /* PreferencesViewController.swift */; };
+		37FF81CB1EA4D8A500B9A125 /* CoffeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FF81CA1EA4D8A500B9A125 /* CoffeeTableViewCell.swift */; };
+		FF9B707A29C369E23B64838E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9B756B1E713F8FE983E615 /* AppDelegate.swift */; };
+		FF9B70AB6651ADA12E784639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9B757E1A1CA5D35D570E47 /* Main.storyboard */; };
+		FF9B71CABCC832E71E8C0BF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9B7A18652E5147E87AA78F /* ViewController.swift */; };
+		FF9B743B599BD17EC2E0EEF7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF9B7DAC51A447C2B22810A6 /* Info.plist */; };
+		FF9B759F2A44D5B15B8370B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9B7D33C21009560A18E5D1 /* LaunchScreen.storyboard */; };
+		FF9B7F77943B609E62DBD50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9B7F70DB3523087973A06F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37349C3E1E9FCEF70056CF05 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		37FF81CA1EA4D8A500B9A125 /* CoffeeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeTableViewCell.swift; sourceTree = "<group>"; };
+		7CE463249BD87DA625D53C5F /* Pods-CupMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupMaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-CupMaster/Pods-CupMaster.release.xcconfig"; sourceTree = "<group>"; };
+		99C1E7A97AB8CD96DB08FB8F /* Pods_CupMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CupMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4F7B04CC58E32AFF5A95BA /* Pods-CupMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CupMaster/Pods-CupMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		FF9B718E3152FBBAC2918182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF9B756B1E713F8FE983E615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF9B79CE22BCC69654340363 /* CupMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9B7A18652E5147E87AA78F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF9B7DAC51A447C2B22810A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		FF9B7E97289EDBBF633FA96D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF9B7F70DB3523087973A06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9B764267561F3B0D7244AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276B7A2D6929D29314E7D9F1 /* Pods_CupMaster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054F35363002AEF74961E837 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99C1E7A97AB8CD96DB08FB8F /* Pods_CupMaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CF4A2855C0312D853BD9281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C4F7B04CC58E32AFF5A95BA /* Pods-CupMaster.debug.xcconfig */,
+				7CE463249BD87DA625D53C5F /* Pods-CupMaster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF9B7622C02658248A5EB2D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9B79CE22BCC69654340363 /* CupMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9B7F8B1074973811E11FDA /* CupMaster */ = {
+			isa = PBXGroup;
+			children = (
+				FF9B7DAC51A447C2B22810A6 /* Info.plist */,
+				FF9B7F70DB3523087973A06F /* Assets.xcassets */,
+				FF9B7D33C21009560A18E5D1 /* LaunchScreen.storyboard */,
+				FF9B756B1E713F8FE983E615 /* AppDelegate.swift */,
+				FF9B757E1A1CA5D35D570E47 /* Main.storyboard */,
+				FF9B7A18652E5147E87AA78F /* ViewController.swift */,
+				37349C3E1E9FCEF70056CF05 /* PreferencesViewController.swift */,
+				37FF81CA1EA4D8A500B9A125 /* CoffeeTableViewCell.swift */,
+			);
+			path = CupMaster;
+			sourceTree = "<group>";
+		};
+		FF9B7F9046649718F76C8D88 = {
+			isa = PBXGroup;
+			children = (
+				FF9B7622C02658248A5EB2D0 /* Products */,
+				FF9B7F8B1074973811E11FDA /* CupMaster */,
+				3CF4A2855C0312D853BD9281 /* Pods */,
+				054F35363002AEF74961E837 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9B70BAF550C0A6148115A6 /* CupMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9B7E6DD97A7AD7D3B4E79E /* Build configuration list for PBXNativeTarget "CupMaster" */;
+			buildPhases = (
+				871DD37AE99676BB87F5AFC2 /* [CP] Check Pods Manifest.lock */,
+				FF9B70124A1F952EE3986E0F /* Sources */,
+				FF9B764267561F3B0D7244AD /* Frameworks */,
+				FF9B7F0ABE689F6FC98475C6 /* Resources */,
+				FFBB159922434E7E22379CB7 /* [CP] Embed Pods Frameworks */,
+				D2B1DA0CBB93A6035496A63B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CupMaster;
+			productName = CupMaster;
+			productReference = FF9B79CE22BCC69654340363 /* CupMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9B75D6FB26EA14AD525537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = jhaughton;
+				TargetAttributes = {
+					FF9B70BAF550C0A6148115A6 = {
+						DevelopmentTeam = ZTR9R33RL8;
+					};
+				};
+			};
+			buildConfigurationList = FF9B7EF10B9C4BAB385D6F9D /* Build configuration list for PBXProject "CupMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF9B7F9046649718F76C8D88;
+			productRefGroup = FF9B7622C02658248A5EB2D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9B70BAF550C0A6148115A6 /* CupMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9B7F0ABE689F6FC98475C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9B743B599BD17EC2E0EEF7 /* Info.plist in Resources */,
+				FF9B7F77943B609E62DBD50B /* Assets.xcassets in Resources */,
+				FF9B759F2A44D5B15B8370B1 /* LaunchScreen.storyboard in Resources */,
+				FF9B70AB6651ADA12E784639 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		871DD37AE99676BB87F5AFC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B1DA0CBB93A6035496A63B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CupMaster/Pods-CupMaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFBB159922434E7E22379CB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CupMaster/Pods-CupMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9B70124A1F952EE3986E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9B707A29C369E23B64838E /* AppDelegate.swift in Sources */,
+				FF9B71CABCC832E71E8C0BF9 /* ViewController.swift in Sources */,
+				37FF81CB1EA4D8A500B9A125 /* CoffeeTableViewCell.swift in Sources */,
+				37349C3F1E9FCEF70056CF05 /* PreferencesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF9B757E1A1CA5D35D570E47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9B718E3152FBBAC2918182 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF9B7D33C21009560A18E5D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9B7E97289EDBBF633FA96D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9B715365A4817DC8874632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4F7B04CC58E32AFF5A95BA /* Pods-CupMaster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZTR9R33RL8;
+				INFOPLIST_FILE = CupMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhaughton.CupMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+			};
+			name = Debug;
+		};
+		FF9B719BEDB3701E776791AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF9B78EAE1B906F2B519E37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9B7C6A64E84A768184B75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE463249BD87DA625D53C5F /* Pods-CupMaster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZTR9R33RL8;
+				INFOPLIST_FILE = CupMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhaughton.CupMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9B7E6DD97A7AD7D3B4E79E /* Build configuration list for PBXNativeTarget "CupMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9B715365A4817DC8874632 /* Debug */,
+				FF9B7C6A64E84A768184B75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9B7EF10B9C4BAB385D6F9D /* Build configuration list for PBXProject "CupMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9B719BEDB3701E776791AF /* Debug */,
+				FF9B78EAE1B906F2B519E37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF9B75D6FB26EA14AD525537 /* Project object */;
+}
